@@ -1,12 +1,14 @@
-# Fiddler HomeWork
+#### Fiddler HomeWork
 
-Ex_0: Отфильтровать выдачу запросов по нужному ip
-
+#### Ex_0: Отфильтровать выдачу запросов по нужному ip
+```
 Protocol: http
 IP: 162.55.220.72
 Port: 5005
+```
 
-Ex_1: 
+#### Ex_1:
+``` 
 Method: GET
 EndPoint: /get_method
 request url params: 
@@ -18,14 +20,16 @@ response:
     “Str”,
     “Str”
 ]
+```
 
-Task:
+#### Task: 
 Сделать правила:
  ⁃ Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
  - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
 ==================
 
-Ex_2:
+#### Ex_2:
+```sql
 Method: POST
 EndPoint: /user_info_3
 request form data: 
@@ -39,8 +43,9 @@ response:
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
+```
 
-Task:
+#### Task:
 Сделать правила:
  ⁃ Подменить тело запроса чтобы поменялся name которые вы вписали в Postman.
  - Подменить тело запроса чтобы поменялся age которые вы вписали в Postman. 
@@ -52,7 +57,8 @@ Task:
 
 ==================
 
-Ex_3:
+#### Ex_3:
+```sql
 Method: GET
 EndPoint: /object_info_1
 request url params: 
@@ -65,8 +71,9 @@ response:
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
+```
 
-Task:
+#### Task:
 Сделать правила:
  ⁃ Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
  - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
@@ -78,7 +85,8 @@ Task:
 
 ==================
 
-Ex_4:
+#### Ex_4:
+```sql
 Method: GET
 EndPoint: /object_info_3
 request url params: 
@@ -97,8 +105,9 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
+```
 
-Task:
+#### Task:
 Сделать правила:
  ⁃ Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
  - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
@@ -109,7 +118,8 @@ Task:
 
 ==================
 
-Ex_5:
+#### Ex_5:
+```sql
 Method: GET
 EndPoint: /object_info_4
 request url params: 
@@ -121,9 +131,9 @@ response:
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
+```
 
-
-Task:
+#### Task:
  ⁃ Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
  - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
  - Подменить url в чтобы в запросе удалился salary которые вы вписали в Postman.
@@ -133,7 +143,8 @@ Task:
 
 ==================
 
-Ex_6:
+#### Ex_6:
+```sql
 Method: POST
 EndPoint: /user_info_2
 request form data: 
@@ -151,9 +162,9 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+```
 
-
-Task:
+#### Task:
 Сделать правила:
  - Подменить тело запроса чтобы поменялся age которые вы вписали в Postman. 
  - Подменить тело запроса чтобы поменялся salary которые вы вписали в Postman. 
